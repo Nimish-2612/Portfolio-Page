@@ -1,0 +1,35 @@
+#projects-section {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(230, 220, 220);
+  height: 40rem;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+  margin-left: 19rem;
+}
+
+#projects-section p{
+    padding-bottom: 1.5rem;
+}
+
+
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem ;
+    font-size: 1.7rem;
+}
+
+.project-image
+{
+    height: 20rem;
+    width: 30rem;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.project-image:hover{
+    height: 22rem;
+    width: 32rem;
+}

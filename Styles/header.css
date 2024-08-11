@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+.gradient {
+  background-image: linear-gradient(
+    to right top,
+    #bb0425,
+    #a90040,
+    #8c0053,
+    #69125d,
+    #421e5c,
+    #382164,
+    #28246c,
+    #002874,
+    #002e93,
+    #0831b1,
+    #2433cf,
+    #4032ed
+  );
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+#sname {
+  color: rgb(198, 12, 12);
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: rgb(194, 191, 191);
+}
+#main-header {
+  height: 5rem;
+  width: 100%;
+  margin: 0 2.4rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#main-header h1 {
+  color: rgb(194, 183, 183);
+  padding-right: 10rem;
+  cursor: pointer;
+}
+
+#main-header ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+#main-header nav {
+  margin: 0;
+}
+
+#main-header li {
+  padding: 0 1.4rem;
+  list-style: none;
+}
+
+#main-header li a {
+  position: relative;
+  padding: 0 0.5rem;
+  text-decoration: none;
+  color: rgb(194, 183, 183);
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  transition: border 0.5s;
+}
+
+#main-header li a:after{
+    content: "";
+    position: absolute;
+    background-color:rgb(198, 12, 12);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+
+#main-header a:hover:after{
+    width: 100%;
+}

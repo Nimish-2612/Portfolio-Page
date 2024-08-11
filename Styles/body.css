@@ -1,0 +1,80 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#intro {
+  font-size: 1.2rem;
+  height: 40rem;
+  box-sizing: border-box;
+  margin-top: 8rem;
+  font-family: "Poppins","sans-serif";
+  /* font-family: "Source Code Pro", sans-serif; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+#intro h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#intro p {
+  font-size: 3rem;
+  font-family: "Poppins","sans-serif";
+  /* font-family: "Source Code Pro", sans-serif; */
+}
+
+#color-text {
+  color: rgb(239, 12, 12);
+}
+
+
+.text {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#text p {
+  margin-top: 10px;
+}
+
+#my-img {
+  height: 65%;
+  width: 100%;
+  object-fit: cover;
+  margin-left: 5rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+button{
+  font-family: "Source Code Pro","sans-serif";
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 12rem;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.489);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  background: -webkit-linear-gradient(0deg, transparent 50%,rgb(239,12,12) 50%);
+  background-size: 400px 80px;
+  transition: 1s;
+}
+
+button:hover{
+  cursor: pointer;
+  color: white;
+  background-position: 200px 0;
+}
+
+button:active{
+  background: rgb(236, 38, 38);
+  background-size: 400px 80px;
+}
